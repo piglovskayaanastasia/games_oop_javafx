@@ -6,7 +6,7 @@ import static org.assertj.core.api.Assertions.*;
 //@Disabled("Тесты отключены. Удалить аннотацию после реализации метода check()")
 public class WinTest {
     @Test
-    public void whenVerticalWin() {
+    public void whenVerticalWin1() {
         int[][] board = {
                 {0, 0, 1, 0, 0},
                 {0, 0, 1, 0, 0},

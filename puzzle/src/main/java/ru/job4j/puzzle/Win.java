@@ -24,14 +24,14 @@ public class Win {
     }
 
     public static boolean Vertical(int[][] board, int cell) {
-        boolean rsl = true;
+        boolean result = true;
         for (int row = 0; row < board.length; row++) {
             if (board[row][cell] != 1) {
-                rsl = false;
+                result = false;
                 break;
             }
         }
-        return rsl;
+        return result;
     }
 }
 
